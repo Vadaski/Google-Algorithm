@@ -56,5 +56,12 @@ public class LinkNode<T> {
 class Node <T>{
 	T data;
 	Node<T> next;
+	
+	public Node() {}
+	
+	public Node(T data) {
+		super();
+		this.data = data;
+	}
 }
 
